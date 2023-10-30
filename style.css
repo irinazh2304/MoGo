@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Raleway:wght@300;500&display=swap');
+
+body {
+font-family: 'Raleway', sans-serif;
+background-image: url(../img/fon.jpg);
+justify-content: center;
+align-items: center;
+
+}
+.container {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.header__wrap {
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: 600;
+}
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 16px;
+    color: #2e1111;
+}
+.nav>li {
+    margin-left: 15px;
+}
+.logo {
+    font-size: 36px;
+    color: #2e1111;
+    text-decoration: none;
+    font-weight: 700;
+}
+.icons {
+    background-image: url(../img/icons/icons1.svg);
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    margin-left: 30px;
+  }
+.icons2 {
+    background-image: url(../img/icons/icons2.svg);
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.name {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.text1 {
+   font-size: 50px;
+   color: rgb(57, 21, 21);
+   font-family: 'Dancing Script', cursive;
+   text-align: center;
+  }
+.text2 {
+   font-size: 60px;
+   color: rgb(57, 21, 21);
+   text-align: center;
+  }
